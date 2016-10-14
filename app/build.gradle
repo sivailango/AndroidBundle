@@ -39,4 +39,6 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:8.4.0'
     compile 'com.braintreepayments.api:braintree:2.+'
     compile 'com.braintreepayments.api:drop-in:2.+'
+    compile 'com.stripe:stripe-android:+'
+    compile 'com.braintreepayments:card-form:2.3.1'
 }
