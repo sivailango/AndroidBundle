@@ -16,6 +16,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.aurum.R;
 
@@ -94,8 +95,9 @@ public class TutorialActivity extends AppCompatActivity {
             addBottomDots(position);
 
             // changing the next button text 'NEXT' / 'GOT IT'
-            if (position == layouts.length - 1) {
+            if (position == layouts.length) {
                 // last page. make button text to GOT IT
+                Toast.makeText(TutorialActivity.this, "Last slide..", Toast.LENGTH_SHORT).show();
 
             } else {
                 // still pages are left
